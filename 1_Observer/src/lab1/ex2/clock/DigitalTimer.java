@@ -10,6 +10,6 @@ public class DigitalTimer implements Observer {
 
     @Override
     public void update(int h, int m, int s) {
-
+        System.out.println("["+h+":"+m+":"+s+"] Beep boop... time is running!");
     }
 }

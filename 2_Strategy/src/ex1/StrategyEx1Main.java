@@ -4,7 +4,7 @@ import ex1.behaviors.BowAndArrowBehavior;
 import ex1.behaviors.KnifeBehavior;
 import ex1.behaviors.SwordBehavior;
 
-public class Main {
+public class StrategyEx1Main {
     public static void main(String[] args) {
         Character king = new King();
         Character queen = new Queen();

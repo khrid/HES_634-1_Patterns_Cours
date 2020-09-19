@@ -1,5 +1,6 @@
 package lab1.ex2.observer;
 
 public interface Observer {
-    public void update(int h, int m, int s);
+    // pour faire afficher le temps
+    void update(int h, int m, int s);
 }

@@ -12,7 +12,7 @@ public class MedicalEmployee implements Observer {
 
     @Override
     public void update(int position, Problem p, int bloodPressure, int electroCardioGram,  int pulseOximetry) {
-        System.out.print("Employee " + name + " receives notification: ");
-        System.out.println("Position " + position + " Problem " + p + " bloodPressure " + bloodPressure + " electroCardioGram " + electroCardioGram + " pulseOximetry " + pulseOximetry);
+        System.out.print("Nurse " + name + " receives notification: ");
+        System.out.println("Room " + position + " Problem " + p + " bloodPressure " + bloodPressure + " electroCardioGram " + electroCardioGram + " pulseOximetry " + pulseOximetry);
     }
 }

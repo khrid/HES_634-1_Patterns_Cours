@@ -1,6 +1,6 @@
 package lab1.ex1;
 
-public class Main {
+public class ObserverEx1Main {
     public static void main(String[] args) {
         PatientMonitoring pm = new PatientMonitoring(1, 10,10,10);
         MedicalEmployee jean = new MedicalEmployee("Jean ", pm);
