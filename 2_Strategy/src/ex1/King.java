@@ -10,7 +10,8 @@ public class King extends Character{
     }
 
     public void fight() {
+        super.fight();
         System.out.println("A king shall protects its people");
-        wp.useWeapon();
+        //wp.useWeapon(); pas nécessaire car existe déjà dans le Character
     }
 }

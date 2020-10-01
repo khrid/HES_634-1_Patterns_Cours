@@ -7,7 +7,7 @@ import ex2.behavior.SortBehavior;
 /**
  * Design patterns Lab 2 - Strategy
  */
-public class Sorter implements SortBehavior{
+public class Sorter /*implements SortBehavior*/{
 
     SortBehavior sortBehavior = new BubbleSortBehavior(); // arbitrary selection of default behavior
 
