@@ -1,9 +1,9 @@
 package ex2_swissmilitary.request;
 
 public class PermissionRequest {
-    private int days;
+    private double days;
 
-    public int getDays() {
+    public double getDays() {
         return days;
     }
 
@@ -21,7 +21,7 @@ public class PermissionRequest {
 
     private String purpose;
 
-    public PermissionRequest(int days, String purpose) {
+    public PermissionRequest(double days, String purpose) {
         this.days = days;
         this.purpose = purpose;
     }

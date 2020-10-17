@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.hevs.design_patterns.lab6_singleton_pattern_singleton_pattern</OriginalElement>
+  <nodes>
+    <node x="0.0" y="152.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensors.TemperatureSensor</node>
+    <node x="0.0" y="663.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SynchSingletonSensorsManager</node>
+    <node x="392.0" y="152.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensors.RoadConditionSensor</node>
+    <node x="1024.75" y="467.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SingletonSensorManager</node>
+    <node x="1218.0" y="663.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.DbleCheckedLockingSingletonSensorsManager</node>
+    <node x="1906.0" y="663.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SimpleSingletonSensorsManager</node>
+    <node x="809.0" y="152.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensors.SpeedSensor</node>
+    <node x="609.0" y="663.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.EagerSingletonSensorsManager</node>
+    <node x="446.5" y="0.0">ch.hevs.design_patterns.lab6_singleton_pattern.sensors.ISensor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SynchSingletonSensorsManager" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SingletonSensorManager">
+      <point x="0.0" y="-51.0" />
+      <point x="294.5" y="633.0" />
+      <point x="1075.5" y="633.0" />
+      <point x="-152.25" y="73.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.EagerSingletonSensorsManager" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SingletonSensorManager">
+      <point x="0.0" y="-51.0" />
+      <point x="903.5" y="643.0" />
+      <point x="1177.0" y="643.0" />
+      <point x="-50.75" y="73.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensors.SpeedSensor" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensors.ISensor">
+      <point x="0.0" y="-135.0" />
+      <point x="959.0" y="127.0" />
+      <point x="686.5" y="127.0" />
+      <point x="96.0" y="51.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensors.TemperatureSensor" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensors.ISensor">
+      <point x="0.0" y="-135.0" />
+      <point x="186.0" y="127.0" />
+      <point x="494.5" y="127.0" />
+      <point x="-96.0" y="51.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensors.RoadConditionSensor" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensors.ISensor">
+      <point x="0.0" y="-135.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SimpleSingletonSensorsManager" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SingletonSensorManager">
+      <point x="-1.1368683772161603E-13" y="-51.0" />
+      <point x="2200.5" y="633.0" />
+      <point x="1380.0" y="633.0" />
+      <point x="152.25" y="73.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.DbleCheckedLockingSingletonSensorsManager" target="ch.hevs.design_patterns.lab6_singleton_pattern.sensor_manager.SingletonSensorManager">
+      <point x="0.0" y="-51.0" />
+      <point x="1552.0" y="643.0" />
+      <point x="1278.5" y="643.0" />
+      <point x="50.75" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5399602385685884" x="1247.5" y="382.5" />
+  <SelectedNodes>
+    <node>ch.hevs.design_patterns.lab6_singleton_pattern.sensors.TemperatureSensor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

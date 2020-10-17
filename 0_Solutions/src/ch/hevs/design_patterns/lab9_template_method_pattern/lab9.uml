@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.hevs.design_patterns.lab9</OriginalElement>
+  <nodes>
+    <node x="219.0" y="299.0">ch.hevs.design_patterns.lab9.template.SwissRestaurant</node>
+    <node x="0.0" y="299.0">ch.hevs.design_patterns.lab9.template.ItalianRestaurant</node>
+    <node x="109.5" y="0.0">ch.hevs.design_patterns.lab9.template.Restaurant</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.hevs.design_patterns.lab9.template.ItalianRestaurant" target="ch.hevs.design_patterns.lab9.template.Restaurant">
+      <point x="0.0" y="-91.5" />
+      <point x="99.5" y="274.0" />
+      <point x="159.25" y="274.0" />
+      <point x="-49.75" y="124.5" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab9.template.SwissRestaurant" target="ch.hevs.design_patterns.lab9.template.Restaurant">
+      <point x="0.0" y="-91.5" />
+      <point x="318.5" y="274.0" />
+      <point x="258.75" y="274.0" />
+      <point x="49.75" y="124.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="241.0" />
+  <SelectedNodes>
+    <node>ch.hevs.design_patterns.lab9.template.SwissRestaurant</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

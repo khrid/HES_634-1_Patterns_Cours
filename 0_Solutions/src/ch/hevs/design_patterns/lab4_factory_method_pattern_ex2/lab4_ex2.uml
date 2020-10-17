@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.hevs.design_patterns.lab4_ex2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="340.0">ch.hevs.design_patterns.lab4_ex2.house.BricksHouse</node>
+    <node x="0.0" y="123.0">ch.hevs.design_patterns.lab4_ex2.wall.WoodWall</node>
+    <node x="143.0" y="123.0">ch.hevs.design_patterns.lab4_ex2.wall.GlassWall</node>
+    <node x="141.5" y="218.0">ch.hevs.design_patterns.lab4_ex2.house.House</node>
+    <node x="125.5" y="0.0">ch.hevs.design_patterns.lab4_ex2.wall.Wall</node>
+    <node x="315.0" y="340.0">ch.hevs.design_patterns.lab4_ex2.house.GlassHouse</node>
+    <node x="158.0" y="340.0">ch.hevs.design_patterns.lab4_ex2.house.WoodHouse</node>
+    <node x="283.0" y="123.0">ch.hevs.design_patterns.lab4_ex2.wall.BricksWall</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.hevs.design_patterns.lab4_ex2.house.GlassHouse" target="ch.hevs.design_patterns.lab4_ex2.house.House">
+      <point x="0.0" y="-25.0" />
+      <point x="382.0" y="315.0" />
+      <point x="283.16666666666663" y="315.0" />
+      <point x="56.66666666666663" y="36.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab4_ex2.wall.BricksWall" target="ch.hevs.design_patterns.lab4_ex2.wall.Wall">
+      <point x="0.0" y="-25.0" />
+      <point x="345.0" y="98.0" />
+      <point x="254.66666666666663" y="98.0" />
+      <point x="51.66666666666663" y="36.5" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab4_ex2.house.WoodHouse" target="ch.hevs.design_patterns.lab4_ex2.house.House">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab4_ex2.wall.WoodWall" target="ch.hevs.design_patterns.lab4_ex2.wall.Wall">
+      <point x="0.0" y="-25.0" />
+      <point x="61.5" y="98.0" />
+      <point x="151.33333333333334" y="98.0" />
+      <point x="-51.66666666666666" y="36.5" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab4_ex2.house.BricksHouse" target="ch.hevs.design_patterns.lab4_ex2.house.House">
+      <point x="0.0" y="-25.0" />
+      <point x="69.0" y="315.0" />
+      <point x="169.83333333333334" y="315.0" />
+      <point x="-56.66666666666666" y="36.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab4_ex2.wall.GlassWall" target="ch.hevs.design_patterns.lab4_ex2.wall.Wall">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="419.0" y="317.0" />
+  <SelectedNodes>
+    <node>ch.hevs.design_patterns.lab4_ex2.house.BricksHouse</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

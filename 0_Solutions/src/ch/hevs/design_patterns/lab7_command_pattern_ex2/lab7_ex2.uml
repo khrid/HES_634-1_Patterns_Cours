@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.hevs.design_patterns.lab7_command_pattern_ex2</OriginalElement>
+  <nodes>
+    <node x="4910.276086956522" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ShortLightsOnCommand</node>
+    <node x="3943.276086956522" y="316.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.RightIndicatorOnCommand</node>
+    <node x="6952.8" y="28.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.LongLights</node>
+    <node x="6116.276086956522" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LongLightsOnCommand</node>
+    <node x="124.0565217391304" y="28.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.Brakes</node>
+    <node x="7983.686956521739" y="28.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.LeftIndicator</node>
+    <node x="7929.276086956522" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LeftIndicatorOffCommand</node>
+    <node x="1196.0565217391304" y="24.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.SpeedControl</node>
+    <node x="7298.276086956522" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LeftIndicatorOnCommand</node>
+    <node x="3268.276086956522" y="316.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.RightIndicatorOffCommand</node>
+    <node x="4293.526086956522" y="28.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command</node>
+    <node x="2302.276086956522" y="316.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ClutchOnCommand</node>
+    <node x="4614.276086956522" y="364.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.NoCommand</node>
+    <node x="491.2760869565218" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.BrakesOffCommand</node>
+    <node x="0.0" y="607.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.OnBoardSystemLoader</node>
+    <node x="5511.276086956522" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ShortLightsOffCommand</node>
+    <node x="1637.2760869565218" y="316.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.SpeedControlOffCommand</node>
+    <node x="3357.526086956522" y="24.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.RightIndicator</node>
+    <node x="2337.0565217391304" y="0.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.Clutch</node>
+    <node x="2783.276086956522" y="316.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ClutchOffCommand</node>
+    <node x="6705.276086956522" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LongLightsOffCommand</node>
+    <node x="5754.8" y="28.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.ShortLights</node>
+    <node x="976.2760869565218" y="316.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.SpeedControlOnCommand</node>
+    <node x="0.0" y="322.0">ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.BrakesOnCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.RightIndicatorOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.RightIndicator">
+      <point x="-163.75" y="-123.0" />
+      <point x="-74.5" y="79.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ShortLightsOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.ShortLights">
+      <point x="145.25" y="-117.0" />
+      <point x="5346.026086956522" y="296.0" />
+      <point x="5818.8" y="296.0" />
+      <point x="-64.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.SpeedControlOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="160.25" y="-123.0" />
+      <point x="1457.0260869565218" y="256.0" />
+      <point x="4339.526086956522" y="256.0" />
+      <point x="-92.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ShortLightsOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.ShortLights">
+      <point x="146.25" y="-117.0" />
+      <point x="5950.026086956522" y="296.0" />
+      <point x="5946.8" y="296.0" />
+      <point x="64.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.SpeedControlOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="161.25" y="-123.0" />
+      <point x="2121.026086956522" y="266.0" />
+      <point x="4357.926086956521" y="266.0" />
+      <point x="-73.60000000000036" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ShortLightsOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="-145.25" y="-117.0" />
+      <point x="5055.526086956522" y="286.0" />
+      <point x="4468.326086956522" y="286.0" />
+      <point x="36.80000000000018" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.NoCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="0.0" y="-75.0" />
+      <point x="4752.276086956522" y="296.0" />
+      <point x="4449.926086956521" y="296.0" />
+      <point x="18.399999999999636" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.BrakesOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="115.25" y="-117.0" />
+      <point x="345.75" y="236.0" />
+      <point x="4302.726086956522" y="236.0" />
+      <point x="-128.80000000000018" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.RightIndicatorOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="163.75" y="-123.0" />
+      <point x="3759.526086956522" y="296.0" />
+      <point x="4413.126086956522" y="296.0" />
+      <point x="-18.399999999999636" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LeftIndicatorOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="-153.75" y="-117.0" />
+      <point x="8083.026086956522" y="236.0" />
+      <point x="4560.326086956522" y="236.0" />
+      <point x="128.80000000000018" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LeftIndicatorOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.LeftIndicator">
+      <point x="153.75" y="-117.0" />
+      <point x="8390.52608695652" y="296.0" />
+      <point x="8196.686956521738" y="296.0" />
+      <point x="71.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ShortLightsOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="-146.25" y="-117.0" />
+      <point x="5657.526086956522" y="276.0" />
+      <point x="4486.726086956522" y="276.0" />
+      <point x="55.19999999999982" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.BrakesOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="116.25" y="-117.0" />
+      <point x="840.0260869565218" y="246.0" />
+      <point x="4321.126086956522" y="246.0" />
+      <point x="-110.39999999999964" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LongLightsOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.LongLights">
+      <point x="143.25" y="-117.0" />
+      <point x="60.5" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LeftIndicatorOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.LeftIndicator">
+      <point x="152.75" y="-117.0" />
+      <point x="7756.526086956522" y="296.0" />
+      <point x="8054.686956521739" y="296.0" />
+      <point x="-71.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.SpeedControlOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.SpeedControl">
+      <point x="-160.25" y="-123.0" />
+      <point x="1136.5260869565218" y="226.0" />
+      <point x="1263.5565217391304" y="226.0" />
+      <point x="-67.5" y="79.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ClutchOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.Clutch">
+      <point x="-116.25" y="-123.0" />
+      <point x="2899.526086956522" y="226.0" />
+      <point x="2614.5565217391304" y="226.0" />
+      <point x="92.5" y="103.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LeftIndicatorOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="-152.75" y="-117.0" />
+      <point x="7451.026086956522" y="246.0" />
+      <point x="4541.926086956521" y="246.0" />
+      <point x="110.39999999999964" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ClutchOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="116.25" y="-123.0" />
+      <point x="3132.026086956522" y="286.0" />
+      <point x="4394.726086956522" y="286.0" />
+      <point x="-36.80000000000018" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.RightIndicatorOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.RightIndicator">
+      <point x="-162.75" y="-123.0" />
+      <point x="4106.026086956522" y="226.0" />
+      <point x="3581.026086956522" y="226.0" />
+      <point x="74.5" y="79.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.BrakesOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.Brakes">
+      <point x="-115.25" y="-117.0" />
+      <point x="115.25" y="296.0" />
+      <point x="177.0565217391304" y="296.0" />
+      <point x="-53.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ClutchOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.Clutch">
+      <point x="-115.25" y="-123.0" />
+      <point x="2417.526086956522" y="226.0" />
+      <point x="2429.5565217391304" y="226.0" />
+      <point x="-92.5" y="103.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.BrakesOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.Brakes">
+      <point x="-116.25" y="-117.0" />
+      <point x="607.5260869565218" y="226.0" />
+      <point x="283.0565217391304" y="226.0" />
+      <point x="53.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LongLightsOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.LongLights">
+      <point x="142.25" y="-117.0" />
+      <point x="6543.026086956522" y="296.0" />
+      <point x="7013.3" y="296.0" />
+      <point x="-60.5" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.RightIndicatorOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="162.75" y="-123.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LongLightsOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="-142.25" y="-117.0" />
+      <point x="6258.526086956522" y="266.0" />
+      <point x="4505.126086956522" y="266.0" />
+      <point x="73.60000000000036" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.SpeedControlOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.SpeedControl">
+      <point x="-161.25" y="-123.0" />
+      <point x="1798.5260869565218" y="226.0" />
+      <point x="1398.5565217391304" y="226.0" />
+      <point x="67.5" y="79.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.LongLightsOffCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="-143.25" y="-117.0" />
+      <point x="6848.526086956522" y="256.0" />
+      <point x="4523.526086956522" y="256.0" />
+      <point x="92.0" y="75.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.ClutchOnCommand" target="ch.hevs.design_patterns.lab7_command_pattern_ex2.commands.Command">
+      <point x="115.25" y="-123.0" />
+      <point x="2648.026086956522" y="276.0" />
+      <point x="4376.326086956522" y="276.0" />
+      <point x="-55.19999999999982" y="75.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.42549460431654673" x="2545.3790552678856" y="495.4994187889678" />
+  <SelectedNodes>
+    <node>ch.hevs.design_patterns.lab7_command_pattern_ex2.receiver.ShortLights</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

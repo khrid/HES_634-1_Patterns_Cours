@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="148.0" y="11.5">ch.hevs.design_patterns.lab1_observer_pattern_ex2.observer.Subject</node>
+    <node x="194.0" y="634.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.clock.DigitalClock</node>
+    <node x="413.0" y="530.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.Main</node>
+    <node x="0.0" y="0.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.ClockTimer</node>
+    <node x="97.0" y="530.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.observer.Observer</node>
+    <node x="92.25" y="431.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.MyTimer.TimerAction</node>
+    <node x="51.75" y="171.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.MyTimer</node>
+    <node x="0.0" y="634.0">ch.hevs.design_patterns.lab1_observer_pattern_ex2.clock.AnalogClock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.MyTimer.TimerAction" target="ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.MyTimer">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab1_observer_pattern_ex2.clock.DigitalClock" target="ch.hevs.design_patterns.lab1_observer_pattern_ex2.observer.Observer">
+      <point x="0.0" y="-38.5" />
+      <point x="281.0" y="609.0" />
+      <point x="227.5" y="609.0" />
+      <point x="43.5" y="27.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.MyTimer" target="ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.ClockTimer">
+      <point x="-54.25" y="-105.0" />
+      <point x="106.0" y="146.0" />
+      <point x="64.0" y="146.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab1_observer_pattern_ex2.timer.MyTimer" target="ch.hevs.design_patterns.lab1_observer_pattern_ex2.observer.Subject">
+      <point x="54.25" y="-105.0" />
+      <point x="214.5" y="146.0" />
+      <point x="256.5" y="146.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab1_observer_pattern_ex2.clock.AnalogClock" target="ch.hevs.design_patterns.lab1_observer_pattern_ex2.observer.Observer">
+      <point x="0.0" y="-38.5" />
+      <point x="87.0" y="609.0" />
+      <point x="140.5" y="609.0" />
+      <point x="-43.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="295.0" y="309.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

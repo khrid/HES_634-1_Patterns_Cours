@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ch.hevs.design_patterns.lab2_sort</OriginalElement>
+  <nodes>
+    <node x="0.0" y="203.0">ch.hevs.design_patterns.lab2_sort.sort.Sorter</node>
+    <node x="232.5" y="0.0">ch.hevs.design_patterns.lab2_sort.behavior.SortBehavior</node>
+    <node x="209.0" y="104.0">ch.hevs.design_patterns.lab2_sort.behavior.InsertSortBehavior</node>
+    <node x="418.0" y="104.0">ch.hevs.design_patterns.lab2_sort.behavior.SelectionSortBehavior</node>
+    <node x="0.0" y="104.0">ch.hevs.design_patterns.lab2_sort.behavior.BubbleSortBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.hevs.design_patterns.lab2_sort.behavior.BubbleSortBehavior" target="ch.hevs.design_patterns.lab2_sort.behavior.SortBehavior">
+      <point x="0.0" y="-27.0" />
+      <point x="94.5" y="79.0" />
+      <point x="256.1666666666667" y="79.0" />
+      <point x="-47.333333333333314" y="27.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab2_sort.behavior.SelectionSortBehavior" target="ch.hevs.design_patterns.lab2_sort.behavior.SortBehavior">
+      <point x="0.0" y="-27.0" />
+      <point x="524.0" y="79.0" />
+      <point x="350.83333333333337" y="79.0" />
+      <point x="47.33333333333337" y="27.0" />
+    </edge>
+    <edge source="ch.hevs.design_patterns.lab2_sort.behavior.InsertSortBehavior" target="ch.hevs.design_patterns.lab2_sort.behavior.SortBehavior">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="315.0" y="151.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
